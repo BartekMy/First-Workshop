@@ -1,1 +1,11 @@
-
+* {
+  padding: 0;
+  margin: 0;
+}
+header, section {
+  width: 100%;
+}
+.main_width {
+  width: 1000px;
+  margin: 0 auto;
+}
