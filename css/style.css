@@ -1,137 +1,365 @@
-
 @font-face {
     font-family: 'ralewayregular';
-    src: url('../font/raleway-regular.woff2') format('woff2'),
-         url('..font/raleway-regular.woff') format('woff');
+    src: url('../font/raleway-regular.woff2') format('woff2'), url('..font/raleway-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
 
-}
 * {
-  padding: 0;
-  margin: 0;
-  font-family: 'ralewayregular';
+    padding: 0;
+    margin: 0;
+    font-family: 'ralewayregular';
 }
+
 .main_width {
-  width: 1000px;
-  margin: 0 auto;
+    width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px solid red;
 }
+
 header, section {
-  width: 100%;
+    width: 100%;
 }
+
 header {
-  background-color: black;
-  height: 50px;
+    background-color: black;
+    height: 50px;
 }
+
 #logo {
-  color: #2eb9a0;
-  float: left;
+    color: white;
+    float: left;
 }
+
+span {
+    color: #2eb9a0;
+}
+
 nav {
-  float: right;
+    float: right;
 }
- #first_level {
-   position: relative;
- }
- #second_level {
-   position: absolute;
- }
- #first_level li {
-   display: inline-block;
- }
- #second_level li {
-   display: block;
- }
-.large_box {
-height: 400px;
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
-background: #eeeeee; /* Old browsers */
-background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+
+#first_level {
+    position: relative;
 }
-.medium_box {
-  float: left;
-  width: 50%;
-}
-#black_chair {
-  background:url("../images/black_chair.png");
-  height: 400px;
-  background-repeat: no-repeat;
-}
-.large_center_box {
-  height: 300px;
-background-color: white;
-}
-.small_box {
-  float: left;
-  width: 33%;
-}
-#box1 {
-  background:url("../images/box1_img.jpg");
-  height: 200px;
-  background-repeat: no-repeat;
-}
-#box2 {
-  background:url("../images/box2_img.jpg");
-  height: 200px;
-  background-repeat: no-repeat;
-}
-#green_line {
-  height: 10px;
-  width: 200px;
-  background-color: #2eb9a0;
-}
-.large_center_box2 {
-  height: 500px;
-  background-color: lightgrey;
-}
-#green_line2 {
-  height: 10px;
-  width: 300px;
-  background-color: #2eb9a0;
-}
-.cennik_box {
-  float: left;
-  width: 33%;
-}
-.cennik_box {
-  width: 250px;
-  height: 300px;
-  border: 4px solid black;
-  text-align: center;
-  padding: 20px;
-  position: relative;
-  float: left;
-  margin-left: 10px;
-}
-.middle_circle {
-border: 4px solid black;
-border-radius: 50%;
-height: 75px;
-width: 75px;
-position: absolute;
-top: -43px;
-right: 111px;
-  background-color: white;
-}
-.small_circle {
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
+
+#second_level {
     position: absolute;
-    bottom: 18px;
-    right: 17px;
+}
+
+#first_level li {
+    display: inline-block;
+}
+
+#second_level li {
+    display: block;
+}
+
+.large_box {
+    height: 400px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+    background: #eeeeee;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #eeeeee 0%, #cccccc 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc', GradientType=0);
+    /* IE6-9 */
+}
+
+#sign_left {
+    float: left;
+    font-size: 80px;
+    color: #2eb9a0;
+    width: 10%;
+    position: absolute;
+    top: 120px;
+    left: 30px;
+}
+
+#sign_right {
+    float: left;
+    font-size: 80px;
+    color: #2eb9a0;
+    width: 10%;
+    position: absolute;
+    bottom: 35px;
+    left: 475px;
+}
+
+.medium_box {
+    float: left;
+    width: 45%;
+    position: relative;
+    text-align: center;
+}
+
+#black_chair {
+    background: url("../images/black_chair.png");
+    height: 300px;
+    background-repeat: no-repeat;
+    margin: 25px;
+}
+
+#first_btn {
+    font-size: 20px;
+    font-weight: 400;
+    height: 40px;
+    width: 215px;
+    border-radius: 7px;
+    color: white;
+    background-color: #2eb9a0;
+    border: none;
+}
+
+#middle_logo {
+    margin-top: 75px;
+}
+
+#middle_text {
+    margin: 25px;
+}
+
+.large_center_box {
+    height: 300px;
+    background-color: white;
+}
+
+.small_box {
+    float: left;
+    width: 29%;
+    margin-top: 30px;
+    margin-left: 41px;
+    margin-right: -20px;
+}
+
+#box1 {
+    background: url("../images/box1_img.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+}
+
+#box2 {
+    background: url("../images/box2_img.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+}
+
+.textfield {
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    opacity: 0.50;
+    position: absolute;
+    top: 125px;
+}
+
+#green_line {
+    height: 10px;
+    width: 200px;
+    background-color: #2eb9a0;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#inner_small_box {
+    border: 1px solid grey;
+    height: 220px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.large_center_box2 {
+    height: 700px;
+    background-color: lightgrey;
+}
+
+#green_line2 {
+    height: 10px;
+    width: 300px;
+    background-color: #2eb9a0;
+}
+
+.cennik_box {
+    float: left;
+    width: 28%;
+    height: 450px;
+    border: 2px solid black;
+    text-align: center;
+    position: relative;
+    margin-top: 150px;
+    margin-left: 48px;
+    margin-right: -20px
+}
+
+h5 {
+    font-size: large;
+    padding: 30px;
+}
+
+.middle_circle {
+    border: 4px solid black;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -43px;
+    right: 111px;
+    background-color: white;
+}
+
+.little_circle {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    bottom: 12px;
+    right: 13px;
     background-color: black;
 }
+
 .large_circle {
-border: 4px solid black;
-border-radius: 50%;
-height: 100px;
-width: 100px;
-position: absolute;
-top: -43px;
-right: 111px;
-  background-color: white;
+    border: 4px solid black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 75px;
+    right: 88px;
+    background-color: white;
+}
+
+table {
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    top: 210px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#cennik_button_green {
+    font-size: 20px;
+    font-weight: 400;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    background-color: #2eb9a0;
+    border: none;
+    box-sizing: border-box;
+    position: absolute;
+    top: 390px;
+    right: 63px;
+}
+
+#cennik_button_white {
+    font-size: 20px;
+    font-weight: 400;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    color: #2eb9a0;
+    background-color: white;
+    border: none;
+    position: absolute;
+    top: 390px;
+    right: 63px;
+    box-sizing: border-box;
+}
+
+.large_end_box {
+    height: 500px;
+    background-color: white;
+}
+
+.medium_end_box1 {
+    float: left;
+    width: 60%;
+}
+
+.medium_end_box2 {
+    float: left;
+    width: 40%;
+}
+
+#form {
+    display: block;
+    padding: 10px;
+}
+
+.red_chair {
+    background: url("../images/red_chair.png");
+    height: 250px;
+    background-repeat: no-repeat;
+}
+
+#end_button {
+    font-size: 20px;
+    font-weight: 400;
+    height: 40px;
+    width: 215px;
+    border-radius: 7px;
+    color: white;
+    background-color: #2eb9a0;
+    border: none;
+}
+
+footer {
+    height: 50px;
+}
+
+#copyright {
+    float: left;
+    width: 70%;
+}
+
+.social {
+    float: left;
+    width: 15%;
+}
+
+#flickr {
+    background: url("../images/flickr.png");
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    float: left;
+}
+
+#vimeo {
+    background: url("../images/vimeo.png");
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    float: left;
+}
+
+#pinterest {
+    background: url("../images/pinterest.png");
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    float: left;
+}
+
+#twitter {
+    background: url("../images/twitter.png");
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    float: left;
 }
