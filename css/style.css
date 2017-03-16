@@ -289,24 +289,54 @@ td {
 .medium_end_box1 {
     float: left;
     width: 60%;
+
 }
 
 .medium_end_box2 {
     float: left;
     width: 40%;
-}
+  }
 
-#form {
-    display: block;
-    padding: 10px;
+#form_small1 {
+  display: block;
+    margin-top: 50px;
+    margin-left: 48px;
+    width: 450px;
+    height: 20px;
+    border: 1px solid #2eb9a0;
+    font-size: 25px;
+    padding: 12px;
 }
-
+#form_small2 {
+  display: block;
+    margin-top: 20px;
+    margin-left: 48px;
+    width: 450px;
+    height: 20px;
+    border: 1px solid #2eb9a0;
+    font-size: 25px;
+    padding: 12px;
+}
+#form_large {
+  display: block;
+    margin-top: 20px;
+    margin-left: 48px;
+    width: 450px;
+    height: 175px;
+    border: 1px solid #2eb9a0;
+    font-size: 25px;
+    padding: 12px;
+}
 .red_chair {
-    background: url("../images/red_chair.png");
-    height: 250px;
-    background-repeat: no-repeat;
+  background: url(../images/red_chair.png);
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 25px;
 }
-
+#checkbox_btn {
+  margin-top: 30px;
+}
 #end_button {
     font-size: 20px;
     font-weight: 400;
