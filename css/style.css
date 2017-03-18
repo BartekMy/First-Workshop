@@ -18,7 +18,7 @@
     border: 1px solid red;
 }
 
-header, section {
+header, section, footer {
     width: 100%;
 }
 
@@ -289,16 +289,15 @@ td {
 .medium_end_box1 {
     float: left;
     width: 60%;
-
 }
 
 .medium_end_box2 {
     float: left;
     width: 40%;
-  }
+}
 
 #form_small1 {
-  display: block;
+    display: block;
     margin-top: 50px;
     margin-left: 48px;
     width: 450px;
@@ -307,8 +306,9 @@ td {
     font-size: 25px;
     padding: 12px;
 }
+
 #form_small2 {
-  display: block;
+    display: block;
     margin-top: 20px;
     margin-left: 48px;
     width: 450px;
@@ -317,8 +317,9 @@ td {
     font-size: 25px;
     padding: 12px;
 }
+
 #form_large {
-  display: block;
+    display: block;
     margin-top: 20px;
     margin-left: 48px;
     width: 450px;
@@ -327,16 +328,19 @@ td {
     font-size: 25px;
     padding: 12px;
 }
+
 .red_chair {
-  background: url(../images/red_chair.png);
-  height: 200px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-top: 25px;
+    background: url(../images/red_chair.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 25px;
 }
+
 #checkbox_btn {
-  margin-top: 30px;
+    margin-top: 30px;
 }
+
 #end_button {
     font-size: 20px;
     font-weight: 400;
@@ -350,11 +354,14 @@ td {
 
 footer {
     height: 50px;
+    color: grey;
 }
 
 #copyright {
     float: left;
-    width: 70%;
+    width: 65%;
+    margin-left: 48px;
+    margin-top: 5px;
 }
 
 .social {
@@ -365,31 +372,43 @@ footer {
 #flickr {
     background: url("../images/flickr.png");
     background-repeat: no-repeat;
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 27px;
     float: left;
+    background-size: contain;
 }
 
 #vimeo {
     background: url("../images/vimeo.png");
     background-repeat: no-repeat;
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 27px;
     float: left;
+    background-size: contain;
 }
 
 #pinterest {
     background: url("../images/pinterest.png");
     background-repeat: no-repeat;
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 27px;
     float: left;
+    background-size: contain;
 }
 
 #twitter {
     background: url("../images/twitter.png");
     background-repeat: no-repeat;
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 27px;
     float: left;
+    background-size: contain;
+}
+#logo_end {
+  margin-top: 5px;
+  font-size: smaller;
+}
+#end {
+    font-weight: bolder;
+    color: grey;
 }
