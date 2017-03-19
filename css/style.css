@@ -59,32 +59,36 @@ nav {
 .large_box {
     height: 450px;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+63,c9c9c9+100 */
-    background: rgb(247,247,247); /* Old browsers */
-    background: -moz-linear-gradient(top,  rgba(247,247,247,1) 63%, rgba(201,201,201,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  rgba(247,247,247,1) 63%,rgba(201,201,201,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(247,247,247,1) 63%,rgba(201,201,201,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#c9c9c9',GradientType=0 ); /* IE6-9 */
-
+    background: rgb(247, 247, 247);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(247, 247, 247, 1) 63%, rgba(201, 201, 201, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(247, 247, 247, 1) 63%, rgba(201, 201, 201, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(247, 247, 247, 1) 63%, rgba(201, 201, 201, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#c9c9c9', GradientType=0);
+    /* IE6-9 */
 }
 
 #sign_left {
-  float: left;
-font-size: 60px;
-color: #2eb9a0;
-width: 10%;
-position: absolute;
-top: 135px;
-left: 50px
+    float: left;
+    font-size: 60px;
+    color: #2eb9a0;
+    width: 10%;
+    position: absolute;
+    top: 135px;
+    left: 50px
 }
 
 #sign_right {
-  float: left;
-  font-size: 60px;
-  color: #2eb9a0;
-  width: 10%;
-  position: absolute;
-  bottom: 55px;
-  left: 450px;
+    float: left;
+    font-size: 60px;
+    color: #2eb9a0;
+    width: 10%;
+    position: absolute;
+    bottom: 55px;
+    left: 450px;
 }
 
 .medium_box {
@@ -93,17 +97,16 @@ left: 50px
     position: relative;
     text-align: center;
     margin-top: 65px;
-
 }
 
 #black_chair {
-  background: url(../images/black_chair.png);
-  height: 350px;
-  width: 480px;
-  background-repeat: no-repeat;
-  margin-left: 40px;
-  background-size: contain;
-  margin-top: 20px;
+    background: url(../images/black_chair.png);
+    height: 350px;
+    width: 480px;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    background-size: contain;
+    margin-top: 20px;
 }
 
 #first_btn {
@@ -131,11 +134,11 @@ left: 50px
 }
 
 .small_box {
-  float: left;
-  width: 28%;
-  margin-top: 23px;
-  margin-left: 60px;
-  margin-right: -40px;
+    float: left;
+    width: 28%;
+    margin-top: 23px;
+    margin-left: 60px;
+    margin-right: -40px;
 }
 
 #box1 {
@@ -162,41 +165,55 @@ left: 50px
     position: absolute;
     top: 125px;
 }
+
 #small_logo {
-  font-weight: bold;
+    font-weight: bold;
 }
+
 #small_logo_inside {
-  font-weight: bold;
-  margin-left: 12px;
-  margin-top: 12px;
+    font-weight: bold;
+    margin-left: 12px;
+    margin-top: 12px;
 }
+
 #green_line {
-  height: 7px;
-  width: 138px;
-  background-color: #2eb9a0;
-  margin-bottom: 10px;
-  margin-top: 5px;
+    height: 7px;
+    width: 138px;
+    background-color: #2eb9a0;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
+
 #green_line_inside {
-  height: 7px;
-  width: 138px;
-  background-color: #2eb9a0;
-  margin-left: 11px;
+    height: 7px;
+    width: 138px;
+    background-color: #2eb9a0;
+    margin-left: 11px;
 }
+
 #inner_small_box {
-    border: 1.5px solid lightgrey;
+    border: 2px solid lightgrey;
     height: 213px;
     box-sizing: border-box;
     padding: 20px;
 }
+
 #small_text {
-  color: grey;
-}
-.large_center_box2 {
-    height: 700px;
-    background-color: lightgrey;
+    color: grey;
 }
 
+.large_center_box2 {
+    height: 650px;
+    background-color: whitesmoke;
+}
+
+#title {
+    padding-left: 45px;
+    padding-top: 35px;
+}
+#smaller_logo {
+  padding-bottom: 7px;
+}
 #green_line2 {
     height: 10px;
     width: 300px;
@@ -206,28 +223,50 @@ left: 50px
 .cennik_box {
     float: left;
     width: 28%;
-    height: 450px;
-    border: 2px solid black;
+    height: 425px;
+    border: 2px solid lightgrey;
     text-align: center;
     position: relative;
-    margin-top: 150px;
+    margin-top: 80px;
     margin-left: 48px;
-    margin-right: -20px
+    margin-right: -20px;
+    background-color: ghostwhite;
+}
+
+.cennik_box_center {
+    float: left;
+    width: 28%;
+    height: 425px;
+    border: 2px solid #2eb9a0;
+    text-align: center;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 48px;
+    margin-right: -20px;
+    background-color: #2eb9a0;
 }
 
 h5 {
     font-size: large;
-    padding: 30px;
+    padding: 20px;
+}
+
+#h5_green {
+    color: #2eb9a0;
+}
+
+#h5_white {
+    color: white;
 }
 
 .middle_circle {
-    border: 4px solid black;
+    border: 2px solid lightgrey;
     border-radius: 50%;
     height: 50px;
     width: 50px;
     position: absolute;
-    top: -43px;
-    right: 111px;
+    top: -38px;
+    right: 113px;
     background-color: white;
 }
 
@@ -238,16 +277,46 @@ h5 {
     position: absolute;
     bottom: 12px;
     right: 13px;
-    background-color: black;
+    background-color: lightgrey;
 }
 
 .large_circle {
-    border: 4px solid black;
+    border: 2px solid lightgrey;
     border-radius: 50%;
     height: 100px;
     width: 100px;
     position: absolute;
-    top: 75px;
+    top: 60px;
+    right: 88px;
+    background-color: white;
+}
+
+.little_circle_center {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    bottom: 12px;
+    right: 13px;
+    background-color: white;
+}
+
+.middle_circle_center {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -38px;
+    right: 113px;
+    background-color: #2eb9a0;
+}
+
+.large_circle_center {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 60px;
     right: 88px;
     background-color: white;
 }
@@ -256,14 +325,24 @@ table {
     box-sizing: border-box;
     width: 100%;
     position: absolute;
-    top: 210px;
+    top: 187px;
     border-collapse: collapse;
-    border: 1px solid black;
 }
 
 td {
     padding: 10px;
-    border: 1px solid black;
+}
+
+#td_one {
+    background-color: lightgrey;
+}
+
+#td_two {
+    background-color: whitesmoke;
+}
+
+#td_three {
+    background-color: white;
 }
 
 #cennik_button_green {
@@ -277,7 +356,7 @@ td {
     border: none;
     box-sizing: border-box;
     position: absolute;
-    top: 390px;
+    top: 365px;
     right: 63px;
 }
 
@@ -291,7 +370,7 @@ td {
     background-color: white;
     border: none;
     position: absolute;
-    top: 390px;
+    top: 365px;
     right: 63px;
     box-sizing: border-box;
 }
@@ -419,10 +498,12 @@ footer {
     float: left;
     background-size: contain;
 }
+
 #logo_end {
-  margin-top: 5px;
-  font-size: smaller;
+    margin-top: 5px;
+    font-size: smaller;
 }
+
 #end {
     font-weight: bolder;
     color: grey;
