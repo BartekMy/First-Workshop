@@ -15,7 +15,7 @@
     width: 1000px;
     margin: 0 auto;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 header, section, footer {
@@ -24,12 +24,15 @@ header, section, footer {
 
 header {
     background-color: black;
-    height: 50px;
+    height: 33px;
 }
 
 #logo {
     color: white;
     float: left;
+    font-size: medium;
+    padding: 6px;
+    padding-left: 50px;
 }
 
 span {
@@ -42,18 +45,53 @@ nav {
 
 #first_level {
     position: relative;
+    margin-right: 45px;
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+#cube {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    -webkit-transform: rotate(45deg);
+    top: 30px;
+    left: 48px;
 }
 
 #second_level {
     position: absolute;
+    top: 35px;
+    left: 5px;
+    background-color: black;
+    width: 115px;
+    height: 78px;
+    padding-top: 10px;
 }
 
 #first_level li {
     display: inline-block;
 }
 
+#first_level li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding-left: 25px;
+}
+
+#top_menu {
+    margin-bottom: 10px;
+}
+
 #second_level li {
     display: block;
+    padding-bottom: 7px;
+    margin-left: -10px;
 }
 
 .large_box {
@@ -87,7 +125,7 @@ nav {
     color: #2eb9a0;
     width: 10%;
     position: absolute;
-    bottom: 55px;
+    bottom: 70px;
     left: 450px;
 }
 
@@ -121,7 +159,9 @@ nav {
 }
 
 #middle_logo {
-    margin-top: 75px;
+  margin-top: 75px;
+  font-size: 36px;
+  font-weight: bold;
 }
 
 #middle_text {
@@ -231,7 +271,7 @@ nav {
     position: relative;
     margin-top: 80px;
     margin-left: 60px;
-    margin-right: -40px;
+    margin-right: -42px;
     background-color: ghostwhite;
 }
 
@@ -291,6 +331,7 @@ h5 {
     top: 60px;
     right: 88px;
     background-color: white;
+    color: grey;
 }
 
 .little_circle_center {
@@ -321,6 +362,7 @@ h5 {
     top: 60px;
     right: 88px;
     background-color: white;
+    color: #2eb9a0;
 }
 
 table {
@@ -329,6 +371,7 @@ table {
     position: absolute;
     top: 187px;
     border-collapse: collapse;
+    color: grey;
 }
 
 td {
@@ -389,10 +432,10 @@ td {
 }
 
 .medium_end_box2 {
-  float: left;
-  width: 34%;
-  margin-top: 15px;
-  margin-left: -15px;
+    float: left;
+    width: 34%;
+    margin-top: 15px;
+    margin-left: -15px;
 }
 
 #form_small1 {
@@ -416,13 +459,13 @@ td {
 }
 
 #form_large {
-  display: block;
-  margin-top: 20px;
-  width: 500px;
-  height: 140px;
-  border: 1px solid #2eb9a0;
-  font-size: 25px;
-  padding: 12px
+    display: block;
+    margin-top: 20px;
+    width: 500px;
+    height: 140px;
+    border: 1px solid #2eb9a0;
+    font-size: 25px;
+    padding: 12px
 }
 
 .red_chair {
@@ -456,17 +499,17 @@ td {
 }
 
 #end_button {
-  font-size: 30px;
-  font-weight: bolder;
-  height: 50px;
-  width: 285px;
-  border-radius: 7px;
-  color: white;
-  background-color: #2eb9a0;
-  border: none;
-  position: absolute;
-  top: 85px;
-  left: 0px;
+    font-size: 30px;
+    font-weight: bolder;
+    height: 50px;
+    width: 285px;
+    border-radius: 7px;
+    color: white;
+    background-color: #2eb9a0;
+    border: none;
+    position: absolute;
+    top: 85px;
+    left: 0px;
 }
 
 footer {
@@ -476,14 +519,14 @@ footer {
 
 #copyright {
     float: left;
-    width: 65%;
+    width: 59%;
     margin-left: 48px;
     margin-top: 5px;
 }
 
 .social {
     float: left;
-    width: 15%;
+    width: 20%;
 }
 
 #flickr {
