@@ -100,7 +100,7 @@ nav {
 }
 
 #black_chair {
-    background: url(../images/black_chair.png);
+    background: url("../images/black_chair.png");
     height: 350px;
     width: 480px;
     background-repeat: no-repeat;
@@ -208,15 +208,17 @@ nav {
 }
 
 #title {
-    padding-left: 45px;
+    padding-left: 60px;
     padding-top: 35px;
 }
+
 #smaller_logo {
-  padding-bottom: 7px;
+    padding-bottom: 7px;
 }
+
 #green_line2 {
-    height: 10px;
-    width: 300px;
+    height: 7px;
+    width: 280px;
     background-color: #2eb9a0;
 }
 
@@ -228,8 +230,8 @@ nav {
     text-align: center;
     position: relative;
     margin-top: 80px;
-    margin-left: 48px;
-    margin-right: -20px;
+    margin-left: 60px;
+    margin-right: -40px;
     background-color: ghostwhite;
 }
 
@@ -241,8 +243,8 @@ nav {
     text-align: center;
     position: relative;
     margin-top: 80px;
-    margin-left: 48px;
-    margin-right: -20px;
+    margin-left: 60px;
+    margin-right: -40px;
     background-color: #2eb9a0;
 }
 
@@ -382,19 +384,21 @@ td {
 
 .medium_end_box1 {
     float: left;
-    width: 60%;
+    width: 59%;
+    margin-left: 60px;
 }
 
 .medium_end_box2 {
-    float: left;
-    width: 40%;
+  float: left;
+  width: 34%;
+  margin-top: 15px;
+  margin-left: -15px;
 }
 
 #form_small1 {
     display: block;
     margin-top: 50px;
-    margin-left: 48px;
-    width: 450px;
+    width: 500px;
     height: 20px;
     border: 1px solid #2eb9a0;
     font-size: 25px;
@@ -404,8 +408,7 @@ td {
 #form_small2 {
     display: block;
     margin-top: 20px;
-    margin-left: 48px;
-    width: 450px;
+    width: 500px;
     height: 20px;
     border: 1px solid #2eb9a0;
     font-size: 25px;
@@ -413,37 +416,57 @@ td {
 }
 
 #form_large {
-    display: block;
-    margin-top: 20px;
-    margin-left: 48px;
-    width: 450px;
-    height: 175px;
-    border: 1px solid #2eb9a0;
-    font-size: 25px;
-    padding: 12px;
+  display: block;
+  margin-top: 20px;
+  width: 500px;
+  height: 140px;
+  border: 1px solid #2eb9a0;
+  font-size: 25px;
+  padding: 12px
 }
 
 .red_chair {
-    background: url(../images/red_chair.png);
+    background: url("../images/red_chair.png");
     height: 200px;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 25px;
+}
+
+#data {
+    position: relative;
 }
 
 #checkbox_btn {
-    margin-top: 30px;
+    margin-top: 25px;
+    width: 40px;
+    height: 40px;
+    -webkit-appearance: none;
+    border: 1px solid #2eb9a0;
+    background: url(../images/form_ok.jpg);
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position-y: 5px;
+    background-position-x: 4px;
+}
+
+#data_permission {
+    position: absolute;
+    top: 27px;
+    left: 57px;
 }
 
 #end_button {
-    font-size: 20px;
-    font-weight: 400;
-    height: 40px;
-    width: 215px;
-    border-radius: 7px;
-    color: white;
-    background-color: #2eb9a0;
-    border: none;
+  font-size: 30px;
+  font-weight: bolder;
+  height: 50px;
+  width: 285px;
+  border-radius: 7px;
+  color: white;
+  background-color: #2eb9a0;
+  border: none;
+  position: absolute;
+  top: 85px;
+  left: 0px;
 }
 
 footer {
