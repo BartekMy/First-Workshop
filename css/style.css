@@ -57,38 +57,34 @@ nav {
 }
 
 .large_box {
-    height: 400px;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
-    background: #eeeeee;
-    /* Old browsers */
-    background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #eeeeee 0%, #cccccc 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc', GradientType=0);
-    /* IE6-9 */
+    height: 450px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+63,c9c9c9+100 */
+    background: rgb(247,247,247); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(247,247,247,1) 63%, rgba(201,201,201,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(247,247,247,1) 63%,rgba(201,201,201,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(247,247,247,1) 63%,rgba(201,201,201,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#c9c9c9',GradientType=0 ); /* IE6-9 */
+
 }
 
 #sign_left {
-    float: left;
-    font-size: 80px;
-    color: #2eb9a0;
-    width: 10%;
-    position: absolute;
-    top: 120px;
-    left: 30px;
+  float: left;
+font-size: 60px;
+color: #2eb9a0;
+width: 10%;
+position: absolute;
+top: 135px;
+left: 50px
 }
 
 #sign_right {
-    float: left;
-    font-size: 80px;
-    color: #2eb9a0;
-    width: 10%;
-    position: absolute;
-    bottom: 35px;
-    left: 475px;
+  float: left;
+  font-size: 60px;
+  color: #2eb9a0;
+  width: 10%;
+  position: absolute;
+  bottom: 55px;
+  left: 450px;
 }
 
 .medium_box {
@@ -96,13 +92,18 @@ nav {
     width: 45%;
     position: relative;
     text-align: center;
+    margin-top: 65px;
+
 }
 
 #black_chair {
-    background: url("../images/black_chair.png");
-    height: 300px;
-    background-repeat: no-repeat;
-    margin: 25px;
+  background: url(../images/black_chair.png);
+  height: 350px;
+  width: 480px;
+  background-repeat: no-repeat;
+  margin-left: 40px;
+  background-size: contain;
+  margin-top: 20px;
 }
 
 #first_btn {
@@ -125,21 +126,21 @@ nav {
 }
 
 .large_center_box {
-    height: 300px;
+    height: 295px;
     background-color: white;
 }
 
 .small_box {
-    float: left;
-    width: 29%;
-    margin-top: 30px;
-    margin-left: 41px;
-    margin-right: -20px;
+  float: left;
+  width: 28%;
+  margin-top: 23px;
+  margin-left: 60px;
+  margin-right: -40px;
 }
 
 #box1 {
     background: url("../images/box1_img.jpg");
-    height: 300px;
+    height: 200px;
     background-repeat: no-repeat;
     position: relative;
     background-size: contain;
@@ -147,36 +148,50 @@ nav {
 
 #box2 {
     background: url("../images/box2_img.jpg");
-    height: 300px;
+    height: 200px;
     background-repeat: no-repeat;
     position: relative;
     background-size: contain;
 }
 
 .textfield {
-    height: 60px;
+    height: 54px;
     width: 100%;
     background-color: white;
     opacity: 0.50;
     position: absolute;
     top: 125px;
 }
-
-#green_line {
-    height: 10px;
-    width: 200px;
-    background-color: #2eb9a0;
-    margin-bottom: 10px;
-    margin-top: 5px;
+#small_logo {
+  font-weight: bold;
 }
-
+#small_logo_inside {
+  font-weight: bold;
+  margin-left: 12px;
+  margin-top: 12px;
+}
+#green_line {
+  height: 7px;
+  width: 138px;
+  background-color: #2eb9a0;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+#green_line_inside {
+  height: 7px;
+  width: 138px;
+  background-color: #2eb9a0;
+  margin-left: 11px;
+}
 #inner_small_box {
-    border: 1px solid grey;
-    height: 220px;
+    border: 1.5px solid lightgrey;
+    height: 213px;
     box-sizing: border-box;
     padding: 20px;
 }
-
+#small_text {
+  color: grey;
+}
 .large_center_box2 {
     height: 700px;
     background-color: lightgrey;
