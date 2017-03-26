@@ -52,7 +52,9 @@ nav {
     text-decoration: none;
     color: white;
 }
-
+#drop_menu {
+  display: none;
+}
 #cube {
     width: 20px;
     height: 20px;
@@ -82,10 +84,6 @@ nav {
     text-decoration: none;
     color: white;
     padding-left: 25px;
-}
-
-#top_menu {
-    margin-bottom: 10px;
 }
 
 #second_level li {
