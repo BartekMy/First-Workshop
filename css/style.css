@@ -114,7 +114,8 @@ nav {
     width: 10%;
     position: absolute;
     top: 135px;
-    left: 50px
+    left: 50px;
+    text-decoration: none;
 }
 
 #sign_right {
@@ -125,6 +126,7 @@ nav {
     position: absolute;
     bottom: 70px;
     left: 450px;
+    text-decoration: none;
 }
 
 .medium_box {
@@ -135,7 +137,26 @@ nav {
     margin-top: 65px;
 }
 
-#black_chair {
+.slider {
+    float: left;
+    width: 45%;
+    position: relative;
+    text-align: center;
+    margin-top: 65px;
+}
+
+.slider ul{
+    list-style: none;
+}
+
+.slider li{
+    display: none;
+}
+
+.slider .visible{
+    display: inline-block;
+}
+/*#black_chair {
     background: url("../images/black_chair.png");
     height: 350px;
     width: 480px;
@@ -143,7 +164,7 @@ nav {
     margin-left: 40px;
     background-size: contain;
     margin-top: 20px;
-}
+}*/
 
 #first_btn {
     font-size: 20px;
@@ -195,12 +216,22 @@ nav {
     background-size: contain;
 }
 
-.textfield {
+.textfield1 {
     height: 54px;
     width: 100%;
     background-color: rgba(255,255,255,0.5);
     position: absolute;
     top: 125px;
+    display: block;
+}
+
+.textfield2 {
+    height: 54px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.5);
+    position: absolute;
+    top: 125px;
+    display: block;
 }
 
 #small_logo {
