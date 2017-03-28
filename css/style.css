@@ -638,7 +638,7 @@ body {
   color: #24baa0;
 }
 
-.list_arrow {
+.list_arrow1 {
   width: 0;
   height: 0;
   border-left: 15px solid transparent;
@@ -651,7 +651,7 @@ body {
   cursor: pointer;
 }
 
-.list_panel {
+.list_panel1 {
   background-color: white;
   border: 1px solid #ccc;
   width: 288px;
@@ -665,12 +665,77 @@ body {
   top: 54px;
   display:none;
 }
-.list_panel li {
+.list_panel1 li {
   margin-top:10px;
   cursor: pointer;
   color: #585858;
 }
 
+.list_arrow2 {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #24baa0;
+  display:block;
+  position: absolute;
+  right: 14px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.list_panel2 {
+  background-color: white;
+  border: 1px solid #ccc;
+  width: 288px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  list-style: none;
+  margin: 0;
+  left: 0px;
+  z-index: 2;
+  position: absolute;
+  top: 54px;
+  display:none;
+}
+.list_panel2 li {
+  margin-top:10px;
+  cursor: pointer;
+  color: #585858;
+}
+
+.list_arrow3 {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #24baa0;
+  display:block;
+  position: absolute;
+  right: 14px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.list_panel3 {
+  background-color: white;
+  border: 1px solid #ccc;
+  width: 288px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  list-style: none;
+  margin: 0;
+  left: 0px;
+  z-index: 2;
+  position: absolute;
+  top: 54px;
+  display:none;
+}
+.list_panel3 li {
+  margin-top:10px;
+  cursor: pointer;
+  color: #585858;
+}
 .title {
   height: 30px;
 }

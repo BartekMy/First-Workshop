@@ -63,4 +63,46 @@ function change(e) {
     sliderImg[imgNumber].classList.add('visible');
 }
 
+// Drop down list No.1
+var panel1 = document.querySelector('.list_panel1');
+var arrow1 = document.querySelector('.list_arrow1');
+
+arrow1.addEventListener("click", showPanel1);
+
+function showPanel1() {
+    if(panel1.style.display === "block") {
+      panel1.style.display = "none";
+    } else {
+      panel1.style.display = "block";
+    }
+}
+
+// drop_down_list No. 2
+var panel2 = document.querySelector('.list_panel2');
+var arrow2 = document.querySelector('.list_arrow2');
+
+arrow2.addEventListener("click", showPanel2);
+
+function showPanel2() {
+    if(panel2.style.display === "block") {
+      panel2.style.display = "none";
+    } else {
+      panel2.style.display = "block";
+    }
+}
+
+// drop_down_list No. 3
+var panel3 = document.querySelector('.list_panel3');
+var arrow3 = document.querySelector('.list_arrow3');
+
+arrow3.addEventListener("click", showPanel3);
+
+function showPanel3() {
+    if(panel3.style.display === "block") {
+      panel3.style.display = "none";
+    } else {
+      panel3.style.display = "block";
+    }
+}
+
 });
