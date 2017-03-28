@@ -105,4 +105,15 @@ function showPanel3() {
     }
 }
 
+// summary panel
+var chair = document.querySelectorAll('.list_panel1 li');
+var title = document.querySelector('.title');
+
+for (var i = 0; i < chair.length; i++) {
+    chair[i].addEventListener('click', function(){
+      title.remove(title.innerText);
+      // ??? title.add(title.innerText);
+})
+};
+
 });
