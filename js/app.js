@@ -109,33 +109,55 @@ function showPanel3() {
 // choose a chair
 var chair = document.querySelectorAll('.list_panel1 li');
 var title = document.querySelector('.title');
+var titleValue = document.querySelector('.title_value');
 
 for (var i = 0; i < chair.length; i++) {
   console.log(chair[i]);
     chair[i].addEventListener('click', function(){
       title.innerHTML=this.innerHTML;
+      if(this.innerHTML === "Clair") {
+        titleValue.innerHTML=150;
+      } else if (this.innerHTML === "Margarita") {
+        titleValue.innerHTML=200;
+      } else if (this.innerHTML === "Selena") {
+        titleValue.innerHTML=300;
+      }
 })
 };
 
 // choose a color
 var color = document.querySelectorAll('.list_panel2 li');
 var choosenColor = document.querySelector('.color');
+var colorValue = document.querySelector('.color_value');
 
 for (var i = 0; i < color.length; i++) {
   console.log(color[i]);
     color[i].addEventListener('click', function(){
       choosenColor.innerHTML=this.innerHTML;
+      if(this.innerHTML === "Czerwony") {
+        colorValue.innerHTML=50;
+      } else if (this.innerHTML === "Czarny") {
+        colorValue.innerHTML=0;
+      } else if (this.innerHTML === "Pomarańczowy") {
+        colorValue.innerHTML=70;
+      }
 })
 };
 
 // choose a pattern
 var pattern = document.querySelectorAll('.list_panel3 li');
 var choosenPattern = document.querySelector('.pattern');
+var patternValue = document.querySelector('.pattern_value');
 
 for (var i = 0; i < pattern.length; i++) {
   console.log(pattern[i]);
     pattern[i].addEventListener('click', function(){
       choosenPattern.innerHTML=this.innerHTML;
+      if(this.innerHTML === "Tkanina") {
+        patternValue.innerHTML=0;
+      } else if (this.innerHTML === "Skóra") {
+        patternValue.innerHTML=100;
+      }
 })
 };
 
