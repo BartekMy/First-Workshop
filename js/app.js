@@ -106,13 +106,36 @@ function showPanel3() {
 }
 
 // summary panel
+// choose a chair
 var chair = document.querySelectorAll('.list_panel1 li');
 var title = document.querySelector('.title');
 
 for (var i = 0; i < chair.length; i++) {
+  console.log(chair[i]);
     chair[i].addEventListener('click', function(){
-      title.remove(title.innerText);
-      // ??? title.add(title.innerText);
+      title.innerHTML=this.innerHTML;
+})
+};
+
+// choose a color
+var color = document.querySelectorAll('.list_panel2 li');
+var choosenColor = document.querySelector('.color');
+
+for (var i = 0; i < color.length; i++) {
+  console.log(color[i]);
+    color[i].addEventListener('click', function(){
+      choosenColor.innerHTML=this.innerHTML;
+})
+};
+
+// choose a pattern
+var pattern = document.querySelectorAll('.list_panel3 li');
+var choosenPattern = document.querySelector('.pattern');
+
+for (var i = 0; i < pattern.length; i++) {
+  console.log(pattern[i]);
+    pattern[i].addEventListener('click', function(){
+      choosenPattern.innerHTML=this.innerHTML;
 })
 };
 
