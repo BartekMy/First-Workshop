@@ -142,12 +142,15 @@ for (var i = 0; i < pattern.length; i++) {
 // choose transport
 var transport = document.getElementById('transport');
 var choosenTransport = document.querySelector('.transport');
+var transportValue = document.querySelector('.transport_value')
 
 transport.addEventListener("click", function (){
 if(transport.checked === false) {
   choosenTransport.innerHTML=null;
+  transportValue.innerHTML=null;
 } else if (transport.checked === true){
   choosenTransport.innerHTML="Transport";
+  transportValue.innerHTML=80;
 }
 });
 
