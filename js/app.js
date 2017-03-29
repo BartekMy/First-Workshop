@@ -139,4 +139,16 @@ for (var i = 0; i < pattern.length; i++) {
 })
 };
 
+// choose transport
+var transport = document.getElementById('transport');
+var choosenTransport = document.querySelector('.transport');
+
+transport.addEventListener("click", function (){
+if(transport.checked === false) {
+  choosenTransport.innerHTML=null;
+} else if (transport.checked === true){
+  choosenTransport.innerHTML="Transport";
+}
+});
+
 });
