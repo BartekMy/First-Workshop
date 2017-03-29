@@ -110,17 +110,28 @@ function showPanel3() {
 var chair = document.querySelectorAll('.list_panel1 li');
 var title = document.querySelector('.title');
 var titleValue = document.querySelector('.title_value');
+var sum = document.querySelector('.sum');
 
 for (var i = 0; i < chair.length; i++) {
   console.log(chair[i]);
     chair[i].addEventListener('click', function(){
       title.innerHTML=this.innerHTML;
+      colorValue.innerHTML=0;
+      patternValue.innerHTML=0;
+      transportValue.innerHTML=0;
+      choosenColor.innerHTML=null;
+      choosenPattern.innerHTML=null;
+      choosenTransport.innerHTML=null;
+      transport.checked = false;
       if(this.innerHTML === "Clair") {
         titleValue.innerHTML=150;
+        sum.innerHTML = parseInt(titleValue.innerHTML) + parseInt(colorValue.innerHTML) + parseInt(patternValue.innerHTML) + parseInt(transportValue.innerHTML);
       } else if (this.innerHTML === "Margarita") {
         titleValue.innerHTML=200;
+        sum.innerHTML = parseInt(titleValue.innerHTML) + parseInt(colorValue.innerHTML) + parseInt(patternValue.innerHTML) + parseInt(transportValue.innerHTML);
       } else if (this.innerHTML === "Selena") {
         titleValue.innerHTML=300;
+        sum.innerHTML = parseInt(titleValue.innerHTML) + parseInt(colorValue.innerHTML) + parseInt(patternValue.innerHTML) + parseInt(transportValue.innerHTML);
       }
 })
 };
@@ -136,10 +147,13 @@ for (var i = 0; i < color.length; i++) {
       choosenColor.innerHTML=this.innerHTML;
       if(this.innerHTML === "Czerwony") {
         colorValue.innerHTML=50;
+        sum.innerHTML = parseInt(titleValue.innerHTML) + parseInt(colorValue.innerHTML) + parseInt(patternValue.innerHTML) + parseInt(transportValue.innerHTML);
       } else if (this.innerHTML === "Czarny") {
         colorValue.innerHTML=0;
+        sum.innerHTML = parseInt(titleValue.innerHTML) + parseInt(colorValue.innerHTML) + parseInt(patternValue.innerHTML) + parseInt(transportValue.innerHTML);
       } else if (this.innerHTML === "Pomarańczowy") {
         colorValue.innerHTML=70;
+        sum.innerHTML = parseInt(titleValue.innerHTML) + parseInt(colorValue.innerHTML) + parseInt(patternValue.innerHTML) + parseInt(transportValue.innerHTML);
       }
 })
 };
@@ -155,8 +169,10 @@ for (var i = 0; i < pattern.length; i++) {
       choosenPattern.innerHTML=this.innerHTML;
       if(this.innerHTML === "Tkanina") {
         patternValue.innerHTML=0;
+        sum.innerHTML = parseInt(titleValue.innerHTML) + parseInt(colorValue.innerHTML) + parseInt(patternValue.innerHTML) + parseInt(transportValue.innerHTML);
       } else if (this.innerHTML === "Skóra") {
         patternValue.innerHTML=100;
+        sum.innerHTML = parseInt(titleValue.innerHTML) + parseInt(colorValue.innerHTML) + parseInt(patternValue.innerHTML) + parseInt(transportValue.innerHTML);
       }
 })
 };
@@ -164,15 +180,16 @@ for (var i = 0; i < pattern.length; i++) {
 // choose transport
 var transport = document.getElementById('transport');
 var choosenTransport = document.querySelector('.transport');
-var transportValue = document.querySelector('.transport_value')
-
+var transportValue = document.querySelector('.transport_value');
 transport.addEventListener("click", function (){
 if(transport.checked === false) {
   choosenTransport.innerHTML=null;
-  transportValue.innerHTML=null;
+  transportValue.innerHTML=0;
+  sum.innerHTML = parseInt(titleValue.innerHTML) + parseInt(colorValue.innerHTML) + parseInt(patternValue.innerHTML);
 } else if (transport.checked === true){
   choosenTransport.innerHTML="Transport";
   transportValue.innerHTML=80;
+  sum.innerHTML = parseInt(titleValue.innerHTML) + parseInt(colorValue.innerHTML) + parseInt(patternValue.innerHTML) + parseInt(transportValue.innerHTML);
 }
 });
 
